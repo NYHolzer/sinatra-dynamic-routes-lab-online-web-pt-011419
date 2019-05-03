@@ -26,7 +26,8 @@ class App < Sinatra::Base
     @operaion = params[:operation]
     
     case @operations 
-    when 
+    when add 
+      (@number1 + @number2).to_s
     @number1.send(@operation, @number2)
   end
   

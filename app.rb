@@ -32,6 +32,7 @@ class App < Sinatra::Base
       (@number2 - @number1).to_s
     when multiply
       (@number1 * @number2)
+    when 
   end
   
 end

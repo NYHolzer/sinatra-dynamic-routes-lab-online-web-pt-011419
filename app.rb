@@ -29,7 +29,8 @@ class App < Sinatra::Base
     when add 
       (@number1 + @number2).to_s 
     when subtract 
-      (@number1 + @number2).to_s 
+      (@number2 - @number1).to_s
+    
   end
   
 end

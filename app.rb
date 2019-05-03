@@ -27,8 +27,9 @@ class App < Sinatra::Base
     
     case @operations 
     when add 
-      (@number1 + @number2).to_s
-    @number1.send(@operation, @number2)
+      (@number1 + @number2).to_s 
+    when subtract 
+      (@number1 + @number2).to_s 
   end
   
 end
